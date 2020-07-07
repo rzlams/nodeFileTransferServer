@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		link(rel="icon" href="/favicon.ico")
+	body
+		h1 My Files Transfer Server
+
+		h2
+			a(href="upload") Upload Files
+		h2
+			a(href="back") <<
+
+		ol
+			each dir in dirs
+				li
+					a(href=dir)= dir
+
+		ul
+			each file in files
+				li
+					a(href=file)= file
+

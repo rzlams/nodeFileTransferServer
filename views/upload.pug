@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		link(rel="icon" href="/favicon.ico")
+	body
+		h1 My Files Transfer Server
+		|
+		h2
+			a(href="/") Download Files
+		|
+		form(action='/upload' method='post' enctype='multipart/form-data')
+			input(type='file' name='file' multiple)
+			|
+			input(type='submit' value='Upload')

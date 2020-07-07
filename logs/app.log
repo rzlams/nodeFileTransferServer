@@ -1,0 +1,48 @@
+{"error":{},"level":"error","message":"uncaughtException: Router.use() requires a middleware function but got a Object\nTypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/router/index.js:458:13)\n    at Function.<anonymous> (/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/application.js:220:21)\n    at Array.forEach (<anonymous>)\n    at Function.use (/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/application.js:217:7)\n    at Object.<anonymous> (/opt/lampp/htdocs/www/node_projects/file-transfer-server/app.js:24:5)\n    at Module._compile (internal/modules/cjs/loader.js:936:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)\n    at Module.load (internal/modules/cjs/loader.js:790:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:703:12)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)","stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/router/index.js:458:13)\n    at Function.<anonymous> (/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/application.js:220:21)\n    at Array.forEach (<anonymous>)\n    at Function.use (/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/application.js:217:7)\n    at Object.<anonymous> (/opt/lampp/htdocs/www/node_projects/file-transfer-server/app.js:24:5)\n    at Module._compile (internal/modules/cjs/loader.js:936:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)\n    at Module.load (internal/modules/cjs/loader.js:790:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:703:12)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)","exception":true,"date":"Thu Mar 05 2020 20:04:33 GMT-0400 (GMT-04:00)","process":{"pid":9682,"uid":1000,"gid":1001,"cwd":"/opt/lampp/htdocs/www/node_projects/file-transfer-server","execPath":"/home/lam/.nvm/versions/node/v12.9.1/bin/node","version":"v12.9.1","argv":["/home/lam/.nvm/versions/node/v12.9.1/bin/node","/opt/lampp/htdocs/www/node_projects/file-transfer-server/app.js"],"memoryUsage":{"rss":47890432,"heapTotal":17252352,"heapUsed":12037448,"external":2094341}},"os":{"loadavg":[2.0615234375,1.94873046875,2.0107421875],"uptime":7194},"trace":[{"column":13,"file":"/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/router/index.js","function":"Function.use","line":458,"method":"use","native":false},{"column":21,"file":"/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/application.js","function":null,"line":220,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":7,"file":"/opt/lampp/htdocs/www/node_projects/file-transfer-server/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":5,"file":"/opt/lampp/htdocs/www/node_projects/file-transfer-server/app.js","function":null,"line":24,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":936,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":947,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":790,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":703,"method":"_load","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":999,"method":"runMain","native":false}]}
+error: helloworld
+info: helloworld
+error: helloworld
+info: helloworld
+2020-03-06T02:55:43.135Z [right meow!] error: helloworld
+2020-03-06T02:55:43.145Z [right meow!] info: helloworld
+error: world
+info: world
+error: world
+info: world
+error: world
+info: world
+2020-03-06T03:11:37.849Z [right meow!] error: helloworld
+2020-03-06T03:11:37.856Z [right meow!] info: helloworld
+2020-03-06T03:17:01.569Z [right meow!] error: helloworld
+2020-03-06T03:19:01.588Z [right meow!] error: helloworld
+2020-03-06T03:19:37.738Z [right meow!] warn: /favicon.ico
+2020-03-06T03:21:37.753Z [right meow!] warn: /favicon.ico
+2020-03-06T03:21:54.536Z [right meow!] warn: /favicon.ico
+2020-03-06T03:22:16.556Z [undefined] warn: /favicon.ico
+2020-03-06T03:24:16.573Z [undefined] warn: /favicon.ico
+2020-03-06T03:26:16.675Z [undefined] warn: /favicon.ico
+2020-03-06T03:28:17.495Z [undefined] warn: /favicon.ico
+2020-03-06T03:30:18.067Z [undefined] warn: /favicon.ico
+2020-03-06T03:32:18.075Z [undefined] warn: /favicon.ico
+2020-03-06T03:34:18.174Z [undefined] warn: /favicon.ico
+2020-03-06T03:36:18.273Z [undefined] warn: /favicon.ico
+2020-03-06T03:38:18.374Z [undefined] warn: /favicon.ico
+2020-03-06T03:40:18.474Z [undefined] warn: /favicon.ico
+2020-03-07T01:22:04.943Z [right meow!] warn: /favicon.ico
+2020-03-07T01:24:05.166Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:10.162Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:12.919Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:14.655Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:17.390Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:23.779Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:26.895Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:35.273Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:36.882Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:37.998Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:40.803Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:46.025Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:47.671Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:49.273Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:50.844Z [right meow!] warn: /favicon.ico
+2020-03-07T01:37:52.661Z [right meow!] warn: /favicon.ico
+2020-03-07T01:38:24.511Z [right meow!] warn: /favicon.ico
